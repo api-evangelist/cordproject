@@ -1,7 +1,24 @@
 aid: cordproject
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cordproject.png
 name: cordproject
-description: cordproject is a company surfaced as a portfolio company of slow-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cord Project Inc. was a New York based startup founded around 2014 by former Google
+  Creative Lab designers Thomas Gayno and Jeff Baxter. Its flagship product, Cord, was a voice
+  messaging app that let people send short audio clips as a middle ground between texting and phone
+  calls. The company raised seed funding from investors including Google Ventures, Greycroft, Lerer
+  Hippeau, Metamorphic Ventures and Slow Ventures, and was acquired by Spotify in January 2016 to
+  explore new ways of interacting with audio. There is no public developer API, SDK, or documentation;
+  this profile is retained as a Slow Ventures portfolio lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/cordproject/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,19 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: spotify
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Voice Messaging
+- Audio
+- Messaging
+- Consumer
+- Mobile
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cordproject-domain-security.yml
 - type: Website
   url: https://cordproject.co
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
