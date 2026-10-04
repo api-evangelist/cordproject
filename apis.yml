@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cordproject.png
-name: cordproject
+name: Cord Project
 description: Cord Project Inc. was a New York based startup founded around 2014 by former Google
   Creative Lab designers Thomas Gayno and Jeff Baxter. Its flagship product, Cord, was a voice
   messaging app that let people send short audio clips as a middle ground between texting and phone
